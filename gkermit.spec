@@ -1,6 +1,6 @@
 %define name gkermit
 %define version 1.00
-%define release	%mkrel 3
+%define release	%mkrel 4
 %define remoteversion 100
 
 Summary:	Transfer files with the Kermit protocol
@@ -41,7 +41,7 @@ bzip2 -f gkermit.nr
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/%{_bindir} $RPM_BUILD_ROOT/%{_mandir}/man1
 cp gkermit $RPM_BUILD_ROOT/%{_bindir}/
-cp gkermit.nr.bz2 $RPM_BUILD_ROOT/%{_mandir}/man1/
+cp gkermit.nr.bz2 $RPM_BUILD_ROOT/%{_mandir}/man1/gkermit.1.bz2
 
 %clean
 rm -rf $RPM_BUILD_ROOT
