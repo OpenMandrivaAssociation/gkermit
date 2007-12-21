@@ -11,6 +11,7 @@ Source:		ftp://kermit.columbia.edu/kermit/archives/gku%{remoteversion}.tar.bz2
 Patch:		gkermit-missing-errno-include.patch.bz2
 License:	GPL
 Group:		Networking/File transfer
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 URL:		http://www.columbia.edu/kermit/gkermit.html
 
