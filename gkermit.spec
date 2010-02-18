@@ -8,7 +8,7 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Source:		ftp://kermit.columbia.edu/kermit/archives/gku%{remoteversion}.tar.bz2
-Patch:		gkermit-missing-errno-include.patch.bz2
+Patch0:		gkermit-missing-errno-include.patch
 License:	GPL
 Group:		Networking/File transfer
 BuildRoot:	%{_tmppath}/%{name}-buildroot
@@ -25,14 +25,11 @@ unfortunately, Free Software. See the gkermit webpage for more information.
 gkermit is a command line, non-interactive client.
 
 %prep
-rm -rf $RPM_BUILD_ROOT
-
 %setup
 
 %patch0 -p1
 
 %build
-
 %make
 
 bzip2 -f gkermit.nr
