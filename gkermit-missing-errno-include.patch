@@ -1,0 +1,10 @@
+--- gkermit-1.00/gkermit.c.orig	2003-01-22 14:46:29.000000000 +0100
++++ gkermit-1.00/gkermit.c	2003-01-22 14:46:48.000000000 +0100
+@@ -56,6 +56,7 @@
+ 
+ #define _GKERMIT_C
+ #include <stdio.h>
++#include <errno.h>
+ #include "gkermit.h"
+ 
+ /* Forward declarations of functions used within this module... */
