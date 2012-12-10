@@ -48,3 +48,41 @@ rm -rf $RPM_BUILD_ROOT
 %doc ANNOUNCE COPYING README
 %{_bindir}/gkermit
 %{_mandir}/man1/*
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.00-8mdv2011.0
++ Revision: 610857
+- rebuild
+
+* Thu Feb 18 2010 Funda Wang <fwang@mandriva.org> 1.00-7mdv2010.1
++ Revision: 507411
+- bunzip2 the patch
+
+* Tue Jul 22 2008 Thierry Vignaud <tv@mandriva.org> 1.00-7mdv2009.0
++ Revision: 240763
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Sun May 06 2007 Lenny Cartier <lenny@mandriva.org> 1.00-5mdv2008.0
++ Revision: 23778
+- Fix filelist
+- Fix manpage name (Bug #16555)
+- Import gkermit
+
+
+
+* Thu Dec 05 2006 Lenny Cartier <lenny@mandriva.com> 1.00-3mdk
+- rebuild
+
+* Mon Feb 23 2004 Lenny Cartier <lenny@mandrakesoft.com> 1.00-2mdk
+- rebuild
+
+* Wed Jan 22 2003 Lenny Cartier <lenny@mandrakesoft.com> 1.00-1mdk
+- from Levi Ramsey <leviramsey@linux-mandrake.com> :
+	- Initial Cooker contrib
+	- Contents of tarball moved to gkermit-1.00/
+- add errno-missing-include.patch
