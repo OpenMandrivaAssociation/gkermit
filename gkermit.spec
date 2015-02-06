@@ -1,6 +1,6 @@
 %define name gkermit
 %define version 1.00
-%define release	%mkrel 8
+%define release	9
 %define remoteversion 100
 
 Summary:	Transfer files with the Kermit protocol
