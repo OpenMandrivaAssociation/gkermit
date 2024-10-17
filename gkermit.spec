@@ -13,7 +13,7 @@ License:	GPL
 Group:		Networking/File transfer
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
-URL:		http://www.columbia.edu/kermit/gkermit.html
+URL:		https://www.columbia.edu/kermit/gkermit.html
 
 %description
 gkermit is a GPL'd implementation of the Kermit protocol, developed by
