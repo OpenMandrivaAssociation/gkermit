@@ -15,6 +15,7 @@ BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 URL:		https://www.columbia.edu/kermit/gkermit.html
 
+BuildRequires:	make
 %description
 gkermit is a GPL'd implementation of the Kermit protocol, developed by
 Columbia University.  Kermit is often used to transfer files over serial
